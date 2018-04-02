@@ -77,3 +77,5 @@ function loadCSS(href) {
   css_link.media = 'all';
   head.appendChild(css_link);
 }
+
+loadCSS("cmenu.css");
