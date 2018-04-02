@@ -1,0 +1,17 @@
+.customCmenu-default {
+  background-color: lightblue;
+  color: white;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.customCmenu-default *:hover {
+  background-color: #9cb9c6; 
+}
+
+.customCmenu-default * {
+  padding: 5px;
+}
+
+#cmenu li {
+  list-style-type: none;
+}
