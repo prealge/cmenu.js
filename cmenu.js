@@ -19,7 +19,7 @@ function closeCmenu() {
 
 function openCmenu(e) {
   if(document.getElementById("cmenu")) {
-    closeCmenu();
+    document.getElementById("cmenu").parentNode.removeChild(document.getElementById("cmenu"));
   }
   if(!overSpecialCmenuElement) {
   e = e || window.event;
