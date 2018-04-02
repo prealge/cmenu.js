@@ -68,7 +68,7 @@ function loadCSS(href) {
     head = document.getElementsByTagName("head")[0];
   } else {
     head = document.createElement("head");
-    document.appendChild("head");
+    document.body.appendChild("head");
   }
   var css_link = document.createElement("link");
   css_link.rel  = 'stylesheet';
